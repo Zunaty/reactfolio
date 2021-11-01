@@ -2,7 +2,9 @@ import React from 'react';
 
 function Projects() {
     return (
-        <div></div>
+        <div className="h-screen">
+            Projects
+        </div>
     );
 };
 

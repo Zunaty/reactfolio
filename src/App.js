@@ -1,26 +1,43 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "tailwindcss/tailwind.css";
 
 import Nav from './components/Nav';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Footer from './components/Footer'
 
 function App() {
+  const [aboutSelect, setAboutSelect] = useState(false);
+  const [projectsSelect, setProjectsSelect] = useState(false);
+  const [contactSelect, setContactSelect] = useState(false);
+
   return (
-    <div>
-      <header>
-        <Nav></Nav>
+    <div className="flex flex-col h-screen">
+      <header className="h-30">
+        <Nav
+          aboutSelect={aboutSelect}
+          setAboutSelect={setAboutSelect}
+          projectsSelect={projectsSelect}
+          setProjectsSelect={setProjectsSelect}
+          contactSelect={contactSelect}
+          setContactSelect={setContactSelect}
+        >
+        </Nav>
       </header>
       
-      <main>
-        <About></About>
-        <Projects></Projects>
-        <Contact></Contact>
+      <main className="bg-gray-500 mb-auto">
+        {projectsSelect ? ( 
+          <Projects></Projects>
+        ) : contactSelect ?(
+          <Contact></Contact>
+        ) : (
+          <About></About>
+        )}
       </main>
 
-      <footer>
-        
+      <footer className="h-10">
+        <Footer></Footer>
       </footer>
     </div>
   );
