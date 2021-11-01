@@ -11,7 +11,7 @@ function Nav(props) {
     } = props;
 
     return (
-        <div className="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 flex flex-row text-white font-mono">
+        <div className="bg-gradient-to-r from-gray-800 via-pink-800 to-red-400 flex flex-row text-white font-mono shadow-2xl">
             <div className="order-first my-5 mx-4 text-4xl">
                 <a href="/">
                     Victor L Perez
@@ -19,13 +19,13 @@ function Nav(props) {
             </div>
 
             <div className="order-last justify-self-end space-x-3 ml-auto my-5 mr-4">
-                <button className={`rounded-lg ring-1 ${aboutSelect && 'ring-2 bg-gradient-to-r from-pink-800 to-pink-500'} bg-gradient-to-r from-pink-500 to-pink-700 p-2 shadow-md`}
+                <button className={`rounded-lg ring-2 ring-gray-700 ring-offset-2 ring-offset-red-400 ${aboutSelect && 'ring-2 animate-bounce'} bg-pink-800 hover:bg-gray-800 shadow-md p-2`}
                     onClick={() => {setAboutSelect(true); setProjectsSelect(false); setContactSelect(false)}}
                 >About Me</button>
-                <button className={`rounded-lg ring-1 ${projectsSelect && 'ring-2 bg-gradient-to-r from-pink-800 to-pink-500'} bg-gradient-to-r from-pink-500 to-pink-700 p-2 shadow-md`}
+                <button className={`rounded-lg ring-2 ring-gray-700 ring-offset-2 ring-offset-red-400 ${projectsSelect && 'ring-2 animate-bounce'} bg-pink-800 hover:bg-gray-800 shadow-md p-2`}
                     onClick={() => {setAboutSelect(false); setProjectsSelect(true); setContactSelect(false)}}
                 >Projects</button>
-                <button className={`rounded-lg ring-1 ${contactSelect && 'ring-2 bg-gradient-to-r from-pink-800 to-pink-500'} bg-gradient-to-r from-pink-500 to-pink-700 p-2 shadow-md`}
+                <button className={`rounded-lg ring-2 ring-gray-700 ring-offset-2 ring-offset-red-400 ${contactSelect && 'ring-2 animate-bounce'} bg-pink-800 hover:bg-gray-800 shadow-md p-2`}
                     onClick={() => {setAboutSelect(false); setProjectsSelect(false); setContactSelect(true)}}
                 >Contact Me</button>
             </div>
