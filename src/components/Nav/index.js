@@ -13,7 +13,7 @@ function Nav(props) {
     return (
         <div className="bg-gradient-to-r from-gray-800 via-pink-800 to-red-400 flex flex-row text-white font-mono shadow-2xl">
             <div className="order-first my-5 mx-4 text-4xl">
-                <a href="/">
+                <a href="/reactfolio/">
                     Victor L Perez
                 </a>
             </div>
