@@ -13,7 +13,7 @@ function App() {
   const [contactSelect, setContactSelect] = useState(false);
 
   return (
-    <div className="flex flex-col h-screen font-mono static w-full">
+    <div className="flex flex-col h-full font-mono static w-full">
       <header className="relative top-0 w-full">
         <Nav
           aboutSelect={aboutSelect}

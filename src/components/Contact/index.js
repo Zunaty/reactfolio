@@ -2,11 +2,18 @@ import React from 'react';
 
 function Contact() {
     return (
-        <div className="container h-full lg:w-1/3 md:w-1/2 sm:w-full mx-auto mt-10 pb-10 font-mono sm:overflow-hidden">
-            <div className="rounded-lg bg-gray-300 h-4/5 divide-y divide-pink-700">
+        <div className="container h-screen lg:w-1/3 md:w-1/2 sm:w-full mx-auto mt-10 pb-10 font-mono">
+
+            {/* Background box that hold the form */}
+            <div className="rounded-lg bg-gray-300 h-2/3 divide-y divide-pink-700">
+
+                {/* section Title */}
                 <p className="text-3xl text-center">Contact Me</p>
+
+                {/* Form Starts here */}
                 <form action="mailTo:Zunaty@gmail.com" className="flex justify-center">
                     <div className="flex flex-col mt-3">
+
                         {/* Getting Users full name */}
                         <div className="flex-col">
                             <label className="text-lg font-medium m-2">
