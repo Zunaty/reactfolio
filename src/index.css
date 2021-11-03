@@ -29,5 +29,5 @@ div::-webkit-scrollbar-track-piece {
 }
 
 ::-webkit-scrollbar-track-piece {
-    background: lightgray;
+    background: rgb(165, 165, 165);
 }
