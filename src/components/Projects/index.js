@@ -73,7 +73,7 @@ function Projects() {
     ]);
 
     return (
-        <div className="container mx-auto mt-10 mb-28 font-mono">
+        <div className="container mx-auto my-5 font-mono">
 
             {/* Setting up grid to hold cards */}
             <div className="grid grid-cols-2 gap-5 md:grid-cols-4">

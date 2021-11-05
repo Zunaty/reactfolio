@@ -13,8 +13,8 @@ function App() {
   const [contactSelect, setContactSelect] = useState(false);
 
   return (
-    <div className="flex flex-col h-full font-mono static w-full">
-      <header className="relative top-0 w-full">
+    <div className="flex flex-col font-mono w-full">
+      <header>
         <Nav
           aboutSelect={aboutSelect}
           setAboutSelect={setAboutSelect}
@@ -26,7 +26,7 @@ function App() {
         </Nav>
       </header>
       
-      <main className="bg-gray-500 h-full w-full">
+      <main className="bg-gray-700">
         {projectsSelect ? ( 
           <Projects></Projects>
         ) : contactSelect ?(
@@ -36,7 +36,7 @@ function App() {
         )}
       </main>
 
-      <footer className="relative bottom-0 w-full bg-gray-500">
+      <footer>
         <Footer></Footer>
       </footer>
     </div>

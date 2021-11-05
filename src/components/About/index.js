@@ -3,15 +3,15 @@ import selfPic from '../../assets/images/self.jpg'
 
 function About() {
     return (
-        <div className="container mx-auto grid md:grid-cols-3 gap-5 bg-gray-500 h-full w-full mt-10 mb-15 font-mono sm:overflow-hidden">
+        <div className="container mx-auto grid md:grid-cols-3 gap-5 h-screen w-full my-5 overflow-hidden">
             
             {/* Image of me that sits to left on large screens, on top on small screens */}
-            <div className="container col-span-2 md:col-span-1 md:row-span-2 h-2/3 max-h-96">
+            <div className="col-span-2 md:col-span-1 md:row-span-2 h-2/3 max-h-96">
                 <img src={selfPic} className="rounded-lg max-h-96 mx-auto md:mx-0 md:ml-auto " alt="Victor Perez"></img>
             </div>
 
             {/* About me section with an about paragraph */}
-            <div className="rounded-lg bg-gray-300 my-max col-span-2 divide-y divide-pink-700 h-full max-w-lg max-h-96 overflow-y-auto mx-auto md:mx-0">
+            <div className="rounded-lg bg-gray-300 col-span-2 divide-y divide-pink-700 h-full max-w-lg max-h-96 md:max-h-full overflow-y-auto mx-auto md:mx-0 md:ml-5">
                 <p className="text-3xl text-center">About Me</p>
                 <p className="m-3">
                     I've done a little bit of everything. I learned to fly single engine airplanes, coded with Java in college, and
@@ -28,7 +28,7 @@ function About() {
             </div>
 
             {/* Skills and technologies known section */}
-            <div className="rounded-lg bg-gray-300 col-span-2 overflow-y-auto max-h-72 divide-y divide-pink-700 max-w-lg w-full mb-20 mx-auto md:mx-0">
+            <div className="rounded-lg bg-gray-300 col-span-2 overflow-y-auto max-h-96 md:max-h-full divide-y divide-pink-700 w-full max-w-lg mx-auto md:mx-0 md:ml-5">
                 <p className="text-3xl text-center">Skills & Technologies</p>
                 <ul className="m-3 text-lg">
                     <li>Javascript</li>
