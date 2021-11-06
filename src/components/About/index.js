@@ -11,7 +11,7 @@ function About() {
             </div>
 
             {/* About me section with an about paragraph */}
-            <div className="rounded-lg bg-gray-300 col-span-2 divide-y divide-pink-700 h-full max-w-lg max-h-96 md:max-h-full overflow-y-auto mx-auto md:mx-0 md:ml-5">
+            <div className="rounded-lg bg-gray-300 col-span-2 divide-y divide-pink-700 h-full max-w-lg max-h-96 overflow-y-auto mx-auto md:mx-0 md:ml-5">
                 <p className="text-3xl text-center">About Me</p>
                 <p className="m-3">
                     I've done a little bit of everything. I learned to fly single engine airplanes, coded with Java in college, and
@@ -28,25 +28,30 @@ function About() {
             </div>
 
             {/* Skills and technologies known section */}
-            <div className="rounded-lg bg-gray-300 col-span-2 overflow-y-auto max-h-96 md:max-h-full divide-y divide-pink-700 w-full max-w-lg mx-auto md:mx-0 md:ml-5">
+            <div className="rounded-lg bg-gray-300 col-span-2 overflow-y-auto max-h-96 divide-y divide-pink-700 w-full max-w-lg mx-auto md:mx-0 md:ml-5">
                 <p className="text-3xl text-center">Skills & Technologies</p>
                 <ul className="m-3 text-lg">
                     <li>Javascript</li>
+                    <li>Java</li>
                     <li>HTML</li>
                     <li>CSS</li>
-                    <li>CSS Frameworks</li>
+                    <li>React.js</li>
+                    <li>Express.js</li>
+                    <li>Node.js</li>
+                    <li>Nightwatch.js</li>
                     <li>API Manipulation</li>
+                    <li>Restful API</li>
                     <li>SQL</li>
-                    <li>NoSQL (Mongo)</li>
+                    <li>NoSQL</li>
+                    <li>MongoDB</li>
+                    <li>Heroku</li>
                     <li>GitHub</li>
                     <li>Selenium</li>
-                    <li>Nightwatch.js</li>
-                    <li>React.js</li>
-                    <li>Node.js</li>
-                    <li>Manual Testing (QA)</li>
-                    <li>Automated Testing (QA)</li>
-                    <li>Nightwatch.js</li>
-                    <li>Photoshop</li>
+                    <li>Manual Testing</li>
+                    <li>Automated Testing</li>
+                    <li>Agile Methodology</li>
+                    <li>Object Oriented Programming (OOP)</li>
+                    <li>Model View Controller (MVC)</li>
                     <li>Private Pilot (VFR)</li>
                     <li>Instrument Pilot (IFR)</li>
                 </ul>

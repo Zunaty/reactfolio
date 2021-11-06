@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contact() {
     return (
-        <div className="h-screen w-full md:w-3/4 xl:w-1/3 mx-auto my-5 md:my-10">
+        <div className="h-screen w-full md:w-1/2 xl:w-1/3 mx-auto my-5 md:my-10">
 
             {/* Background box that hold the form */}
             <div className="rounded-lg bg-gray-300 divide-y divide-pink-700">
