@@ -42,7 +42,6 @@
     background-size: cover;
 }
 
-
 .airQualityImage {
     background-image: url(./assets/images/air-quality-preview.png);
     background-position: center top;
@@ -73,7 +72,7 @@
 
 .legoTestImage {
     background-image: url(./assets/images/lego.png);
-    background-position: center top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
