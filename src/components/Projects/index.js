@@ -117,8 +117,8 @@ function Projects() {
 
                                 {/* Buttons at bottom */}
                                 <div className="flex justify-end text-white space-x-3 m-2">
-                                    <a href={project.github} className="rounded-lg ring-2 ring-gray-700 ring-offset-2 ring-offset-red-400 bg-pink-800 hover:bg-gray-800 shadow-md p-2">GitHub</a>
-                                    <a href={project.link} className="rounded-lg ring-2 ring-gray-700 ring-offset-2 ring-offset-red-400 bg-pink-800 hover:bg-gray-800 shadow-md p-2">Site Link</a>
+                                    <a href={project.github} target="_blank" rel="noreferrer" className="rounded-lg ring-2 ring-gray-700 ring-offset-2 ring-offset-red-400 bg-pink-800 hover:bg-gray-800 shadow-md p-2">GitHub</a>
+                                    <a href={project.link} target="_blank" rel="noreferrer" className="rounded-lg ring-2 ring-gray-700 ring-offset-2 ring-offset-red-400 bg-pink-800 hover:bg-gray-800 shadow-md p-2">Site Link</a>
                                 </div>  
                             </div>
                         </div>
