@@ -6,10 +6,22 @@ import workDayPic from '../../assets/images/workday-planner.png';
 import weatherAppPic from '../../assets/images/weatherApp.png';
 import legoPic from '../../assets/images/lego.png';
 import passGenPic from '../../assets/images/pass-gen.png';
+import dataVersePic from '../../assets/images/dataverse.png'
 
 
 function Projects() {
     const [projects] = useState([
+        {
+            name: "DataVerse",
+            github: "https://github.com/Zunaty/dataverse",
+            link: "https://gentle-temple-58806.herokuapp.com/",
+            photo: dataVersePic,
+            cssPhoto: "dataVerseImage",
+            photoAlt: "DataVerse App",
+            des: "A scalable app for personal to small business which helps you track your current inventory. The app showcases ReactJS and it's many tools to create useful apps, which is enhanced by a NoSQL database. My responsibilities were front-end focused with some back-end, and ensuring merges, features, and pushes were efficient and continuous.",
+            type: "Group Project",
+            tech: ["ReactJS", "Javascript", "Express.js", "NodeJS", "HTML", "CSS", "MUI", "MongoDB"]
+        },
         {
             name: "Job Tracker",
             github: "https://github.com/Zunaty/Looking-For-A-Job",

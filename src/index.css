@@ -76,3 +76,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.dataVerseImage {
+    background-image: url(./assets/images/dataverse.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
