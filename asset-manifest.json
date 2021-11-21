@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/reactfolio/static/css/main.b9229bf6.chunk.css",
-    "main.js": "/reactfolio/static/js/main.4e1cc00b.chunk.js",
-    "main.js.map": "/reactfolio/static/js/main.4e1cc00b.chunk.js.map",
+    "main.css": "/reactfolio/static/css/main.bb38d80f.chunk.css",
+    "main.js": "/reactfolio/static/js/main.da22c0c3.chunk.js",
+    "main.js.map": "/reactfolio/static/js/main.da22c0c3.chunk.js.map",
     "runtime-main.js": "/reactfolio/static/js/runtime-main.f3f1905b.js",
     "runtime-main.js.map": "/reactfolio/static/js/runtime-main.f3f1905b.js.map",
     "static/css/2.105493b8.chunk.css": "/reactfolio/static/css/2.105493b8.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.76adb48d.chunk.js.map": "/reactfolio/static/js/3.76adb48d.chunk.js.map",
     "index.html": "/reactfolio/index.html",
     "static/css/2.105493b8.chunk.css.map": "/reactfolio/static/css/2.105493b8.chunk.css.map",
-    "static/css/main.b9229bf6.chunk.css.map": "/reactfolio/static/css/main.b9229bf6.chunk.css.map",
+    "static/css/main.bb38d80f.chunk.css.map": "/reactfolio/static/css/main.bb38d80f.chunk.css.map",
     "static/js/2.2970e8d5.chunk.js.LICENSE.txt": "/reactfolio/static/js/2.2970e8d5.chunk.js.LICENSE.txt",
     "static/media/index.css": "/reactfolio/static/media/workday-planner.2416e024.png",
     "static/media/self.f4cc886e.jpg": "/reactfolio/static/media/self.f4cc886e.jpg"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.f3f1905b.js",
     "static/css/2.105493b8.chunk.css",
     "static/js/2.2970e8d5.chunk.js",
-    "static/css/main.b9229bf6.chunk.css",
-    "static/js/main.4e1cc00b.chunk.js"
+    "static/css/main.bb38d80f.chunk.css",
+    "static/js/main.da22c0c3.chunk.js"
   ]
 }
