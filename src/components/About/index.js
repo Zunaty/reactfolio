@@ -35,7 +35,9 @@ function About() {
                     <li>Java</li>
                     <li>HTML</li>
                     <li>CSS</li>
+                    <li>C#</li>
                     <li>React.js</li>
+                    <li>Next.js</li>
                     <li>Express.js</li>
                     <li>Node.js</li>
                     <li>Nightwatch.js</li>
