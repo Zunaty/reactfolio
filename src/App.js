@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
 import "tailwindcss/tailwind.css";
 
+// Importing components and pages
 import Nav from './components/Nav';
-import About from './components/About';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Footer from './components/Footer'
+import Footer from './components/Footer';
+
+import Home from './pages/Home';
+import About from './pages/About';
+import Projects from './pages/Projects';
 
 function App() {
-  const [aboutSelect, setAboutSelect] = useState(true);
+  const [aboutSelect, setAboutSelect] = useState(false);
   const [projectsSelect, setProjectsSelect] = useState(false);
-  const [contactSelect, setContactSelect] = useState(false);
 
   return (
     <div className="flex flex-col font-mono w-full">
@@ -20,8 +21,6 @@ function App() {
           setAboutSelect={setAboutSelect}
           projectsSelect={projectsSelect}
           setProjectsSelect={setProjectsSelect}
-          contactSelect={contactSelect}
-          setContactSelect={setContactSelect}
         >
         </Nav>
       </header>
@@ -29,10 +28,10 @@ function App() {
       <main className="bg-gray-700">
         {projectsSelect ? ( 
           <Projects></Projects>
-        ) : contactSelect ?(
-          <Contact></Contact>
-        ) : (
+        ) : aboutSelect ? (
           <About></About>
+        ) : (
+          <Home></Home>
         )}
       </main>
 

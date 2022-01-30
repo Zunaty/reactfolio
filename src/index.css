@@ -7,11 +7,12 @@
 /* width */
 ::-webkit-scrollbar {
     width: 12px;
+    background: rgb(165, 165, 165);
+    border-radius: 10px;
 }
   
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
     border-radius: 10px;
 }
   
@@ -27,11 +28,8 @@
 }
 
 ::-webkit-scrollbar-track-piece {
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-track-piece {
     background: rgb(165, 165, 165);
+    border-radius: 10px;
 }
 
 /* Project backgrounds */
