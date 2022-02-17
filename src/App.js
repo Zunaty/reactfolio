@@ -8,10 +8,19 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
+import Games from './pages/Games';
 
 function App() {
+  // Nav button state
   const [aboutSelect, setAboutSelect] = useState(false);
   const [projectsSelect, setProjectsSelect] = useState(false);
+  const [gamesSelect, setGamesSelect] = useState(false);
+
+  const [score, setScore] = useState(0);
+
+
+
+
 
   return (
     <div className="flex flex-col font-mono w-full">
@@ -21,15 +30,18 @@ function App() {
           setAboutSelect={setAboutSelect}
           projectsSelect={projectsSelect}
           setProjectsSelect={setProjectsSelect}
-        >
-        </Nav>
+          gamesSelect={gamesSelect}
+          setGamesSelect={setGamesSelect}
+        ></Nav>
       </header>
-      
+
       <main className="bg-gray-700">
-        {projectsSelect ? ( 
+        {projectsSelect ? (
           <Projects></Projects>
         ) : aboutSelect ? (
           <About></About>
+        ) : gamesSelect ? (
+          <Games></Games>
         ) : (
           <Home></Home>
         )}

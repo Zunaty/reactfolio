@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Home() {
+export default function Home(score) {
 
     return (
         <div className="container h-screen w-screen overflow-hidden">

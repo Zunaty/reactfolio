@@ -6,6 +6,8 @@ function Nav(props) {
         setAboutSelect,
         projectsSelect,
         setProjectsSelect,
+        gamesSelect,
+        setGamesSelect
     } = props;
 
     return (
@@ -19,13 +21,20 @@ function Nav(props) {
                 </a>
             </div>
 
+            <div className='hidden'>
+                Your score: !
+            </div>
+
             <div className="md:order-last self-center md:justify-self-end space-x-3 md:ml-auto my-5 md:mr-4">
                 <button className={`rounded-lg ring-2 ring-gray-700 ring-offset-2 ring-offset-red-400 bg-pink-800 hover:bg-gray-800 shadow-md p-1 md:p-2 ${aboutSelect && 'animate-pulse md:animate-bounce'}`}
-                    onClick={() => {setAboutSelect(true); setProjectsSelect(false)}}
+                    onClick={() => {setAboutSelect(true); setProjectsSelect(false); setGamesSelect(false);}}
                 >About Me</button>
                 <button className={`rounded-lg ring-2 ring-gray-700 ring-offset-2 ring-offset-red-400 bg-pink-800 hover:bg-gray-800 shadow-md p-1 md:p-2 ${projectsSelect && 'animate-pulse md:animate-bounce'}`}
-                    onClick={() => {setAboutSelect(false); setProjectsSelect(true)}}
+                    onClick={() => {setAboutSelect(false); setProjectsSelect(true); setGamesSelect(false);}}
                 >Projects</button>
+                <button className={`rounded-lg ring-2 ring-gray-700 ring-offset-2 ring-offset-red-400 bg-pink-800 hover:bg-gray-800 shadow-md p-1 md:p-2 ${gamesSelect && 'animate-pulse md:animate-bounce'}`}
+                    onClick={() => {setAboutSelect(false); setProjectsSelect(false); setGamesSelect(true);}}
+                >Games</button>
             </div>
         </div>
     );

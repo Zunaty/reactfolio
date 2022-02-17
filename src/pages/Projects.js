@@ -4,22 +4,22 @@ import projectData from '../utils/projectData'
 
 
 
-function Projects() {
-    const projects = projectData;
+function Projects(score) {
+    const projects = projectData; 
 
     return (
-        <div className="mx-auto sm:mx-10 lg:mx-20 xl:mx-36 my-5">
+        <div className="mx-5 sm:mx-10 lg:mx-20 xl:mx-36 my-5">
 
             {/* Setting up grid to hold cards */}
             <div className="grid grid-cols-2 gap-5 md:grid-cols-4">
 
                 {/* Going through the array of objects and creating a card for each */}
-                {projects.map((project) => (
+                {projects.map((project, index) => (
                     <>
                         {/* Background of project card */}
-                        <div className={`container rounded-lg my-max col-span-2 max-w-full flex flex-col ${project.cssPhoto}`}>
+                        <div id={index} className={`container rounded-lg my-max col-span-2 max-w-full flex flex-col ${project.cssPhoto}`}>
 
-                            <div className="opacity-0 hover:opacity-100 bg-gradient-to-r from-gray-800 via-pink-900 text-white rounded-lg h-full">
+                            <div className=" opacity-0 hover:opacity-100 bg-gradient-to-r from-gray-800 via-pink-900 text-white rounded-lg h-full">
                                 {/* Title box for project Card */}
                                 <div className="ml-5 mr-2 divide-y divide-pink-700 h-16">
                                     <p className="text-3xl text-center ">{project.name}</p>
@@ -36,10 +36,8 @@ function Projects() {
                                     <p className="text-xl ml-2">Technologies Used:</p>
                                     <ul className="ml-2">
                                         {/* Pulling out all the technologies from the array and making them list items */}
-                                        {project.tech.map((techItem) => (
-                                            <>
-                                                <li>{techItem}</li>
-                                            </>
+                                        {project.tech.map((techItem, techIndex) => (
+                                            <li id={techIndex}>{techItem}</li>
                                         ))}
                                     </ul>
                                 </div>

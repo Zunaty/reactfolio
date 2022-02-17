@@ -1,7 +1,7 @@
 import React from 'react';
 import selfPic from '../assets/images/self.jpg'
 
-function About() {
+function About(score) {
     return (
         <div className="container mx-auto grid md:grid-cols-3 gap-5 h-screen w-full my-5 overflow-hidden">
 
