@@ -10,7 +10,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Games from './pages/Games';
 
-function App() {
+export default function App() {
   // Nav button state
   const [aboutSelect, setAboutSelect] = useState(false);
   const [projectsSelect, setProjectsSelect] = useState(false);
@@ -43,7 +43,9 @@ function App() {
         ) : gamesSelect ? (
           <Games></Games>
         ) : (
-          <Home></Home>
+          <div className='flex justify-center'>
+            <Home></Home>
+          </div>
         )}
       </main>
 
@@ -53,5 +55,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
