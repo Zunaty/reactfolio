@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
     return (
-        <div className="bg-gradient-to-r from-gray-800 via-pink-800 to-red-400 flex flex-col flex-wrap text-white font-mono">
+        <div className="bg-gradient-to-r from-gray-800 via-pink-700 to-pink-900 flex flex-col flex-wrap text-white font-mono">
 
             {/* Credits to React and Tailwind */}
             <div className="m-auto md:text-md text-center my-5 space-x-4">

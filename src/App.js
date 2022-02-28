@@ -16,7 +16,7 @@ export default function App() {
   const [projectsSelect, setProjectsSelect] = useState(false);
   const [gamesSelect, setGamesSelect] = useState(false);
 
-  const [score, setScore] = useState(0);
+  // const [score, setScore] = useState(0);
 
 
 
@@ -36,17 +36,19 @@ export default function App() {
       </header>
 
       <main className="bg-gray-700">
-        {projectsSelect ? (
+        {/* {projectsSelect ? (
           <Projects></Projects>
         ) : aboutSelect ? (
           <About></About>
         ) : gamesSelect ? (
           <Games></Games>
         ) : (
-          <div className='flex justify-center'>
+          <div>
             <Home></Home>
           </div>
-        )}
+        )} */}
+
+        <Home></Home>
       </main>
 
       <footer>

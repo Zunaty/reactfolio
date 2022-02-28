@@ -11,7 +11,7 @@ function Nav(props) {
     } = props;
 
     return (
-        <div className="bg-gradient-to-r from-gray-800 via-pink-800 to-red-400 flex flex-col md:flex-row text-white font-mono shadow-2xl">
+        <div className="bg-gradient-to-r from-gray-800 via-pink-700 to-pink-900 flex flex-col md:flex-row text-white font-mono shadow-2xl fixed top-0 w-full z-50">
             <div className="self-center md:order-first my-5 mx-4 text-4xl">
                 <a className="hover:text-gray-500 transition duration-500 ease-in-out" 
                     href="/reactfolio/" onClick={() => {

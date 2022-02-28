@@ -44,7 +44,7 @@ export default function About(score) {
             </div>
 
             {/* Skills and technologies known section */}
-            <div className="rounded-lg bg-gray-300 col-span-2 overflow-y-auto max-h-96 divide-y divide-pink-700 w-full max-w-lg mx-auto md:mx-0 md:ml-5">
+            {/* <div className="rounded-lg bg-gray-300 col-span-2 overflow-y-auto max-h-96 divide-y divide-pink-700 w-full max-w-lg mx-auto md:mx-0 md:ml-5">
                 <p className="text-3xl text-center">Skills & Technologies</p>
                 <ul className="m-3 text-lg">
                     <li>Javascript</li>
@@ -73,7 +73,7 @@ export default function About(score) {
                     <li>Private Pilot (VFR)</li>
                     <li>Instrument Pilot (IFR)</li>
                 </ul>
-            </div>
+            </div> */}
         </div>
     );
 };
