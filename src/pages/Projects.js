@@ -8,7 +8,7 @@ export default function Projects(score) {
   const projects = projectData;
 
   return (
-    <div className="mx-5 sm:mx-10 lg:mx-20 xl:mx-36 my-5">
+    <div className="mx-5 sm:mx-10 lg:mx-20 xl:mx-36 mt-24 mb-10">
 
       {/* Setting up grid to hold cards */}
       <div className="grid grid-cols-2 gap-5 md:grid-cols-4">

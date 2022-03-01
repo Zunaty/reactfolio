@@ -56,3 +56,16 @@
 </div>
 
 </div>
+
+
+
+
+{/* <button className={`invisible lg:visible lg:rounded-lg ring-2 ring-gray-700 ring-offset-2 ring-offset-red-400 bg-pink-800 hover:bg-gray-800 shadow-md p-1 lg:p-2 ${aboutSelect && 'animate-pulse'}`}
+                    onClick={() => {setAboutSelect(true); setProjectsSelect(false); setGamesSelect(false);}}
+                >About Me</button>
+                <button className={`invisible lg:visible lg:rounded-lg ring-2 ring-gray-700 ring-offset-2 ring-offset-red-400 bg-pink-800 hover:bg-gray-800 shadow-md p-1 lg:p-2 ${projectsSelect && 'animate-pulse'}`}
+                    onClick={() => {setAboutSelect(false); setProjectsSelect(true); setGamesSelect(false);}}
+                >Projects</button> */}
+                {/* <button className={`invisible lg:visible lg:rounded-lg ring-2 ring-gray-700 ring-offset-2 ring-offset-red-400 bg-pink-800 hover:bg-gray-800 shadow-md p-1 lg:p-2 ${gamesSelect && 'animate-pulse'}`}
+                    onClick={() => {setAboutSelect(false); setProjectsSelect(false); setGamesSelect(true);}}
+                >Games</button> */}

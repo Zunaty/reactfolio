@@ -36,19 +36,19 @@ export default function App() {
       </header>
 
       <main className="bg-gray-700">
-        {/* {projectsSelect ? (
+        {projectsSelect ? (
           <Projects></Projects>
         ) : aboutSelect ? (
           <About></About>
         ) : gamesSelect ? (
           <Games></Games>
         ) : (
-          <div>
-            <Home></Home>
-          </div>
-        )} */}
+          <Home
+            projectsSelect={projectsSelect}
+            setProjectsSelect={setProjectsSelect}
+          ></Home>
+        )}
 
-        <Home></Home>
       </main>
 
       <footer>
